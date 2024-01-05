@@ -11,7 +11,6 @@ async fn main() {
     if args.len() < 2 {
         panic!("Needs a token")
     }
-
     // Create the api key struct for the token
     let api_key = ApiKey{
         prefix: None,
